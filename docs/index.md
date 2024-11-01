@@ -1128,7 +1128,7 @@ If there is an edge from U to V, then U <= V
 Possible only if the graph is a DAG
 
 Algo:
-- Create a graph representation (adjacency list) and an in degree counter (Map<Integer, Integer>)
+- Create a graph representation (adjacency list) and an in degree counter (`Map<Integer, Integer>`)
 - Zero them for each vertex
 - Fill the adjacency list and the in degree counter for each edge
 - Add in a queue each vertex whose in degree count is 0 (source vertex with no parent)
@@ -2232,7 +2232,7 @@ If there is an edge from U to V, then U <= V
 Possible only if the graph is a DAG
 
 Algo:
-- Create a graph representation (adjacency list) and an in degree counter (Map<Integer, Integer>)
+- Create a graph representation (adjacency list) and an in degree counter (`Map<Integer, Integer>`)
 - Zero them for each vertex
 - Fill the adjacency list and the in degree counter for each edge
 - Add in a queue each vertex whose in degree count is 0 (source vertex with no parent)
